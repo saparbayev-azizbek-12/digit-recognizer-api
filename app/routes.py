@@ -1,7 +1,7 @@
 import numpy as np
 from fastapi import APIRouter
-from services import predict
-from schemas import InputData, OutputData
+from app.services import predict
+from app.schemas import InputData, OutputData
 
 router = APIRouter()
 
